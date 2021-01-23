@@ -118,3 +118,16 @@ I chose to use the [Coolors](https://coolors.co/ffb5a7-fcd5ce-f8edeb-f9dcc4-fec8
 * **Test**<br>
 * **Results**<br>
 * **Verdict**<br>
+
+## Bugs 
+---
+
+## Deployment 
+---
+
+## References 
+---
+### Code References 
+
+### Special Thanks 
+
