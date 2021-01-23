@@ -43,3 +43,14 @@
 * Help users to explore a potential holiday destination and possible activities there.
 * Help users navigate site without complication and difficulty, make the experiences as smooth as possible.
 
+### User Requirements and Expectations 
+**Requirements**
+* Web application should be on the header part of front-page to dominate the webpage.
+* Should be a one page website that has only web app on display to avoid distracting user from main feature.
+* Should be without lag and have good performance to make experience comfortable and easy.
+
+**Expectations**
+* Visually appealing website that is easy on the eyes and make the UX very positive emotionally.
+* Looks professional and the colour schemes should relax user as if they were on holiday.
+* Satisfy all user goals to the best of ability by including all relevant features, user should feel site was very helpful.
+
