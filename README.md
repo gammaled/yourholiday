@@ -17,8 +17,6 @@
   * [Deployment](#deployment)
   * [References](#references)
     + [Code References](#code-references)
-    + [Investment Information Sources](#investment-information-sources)
-    + [Image Sources](#image-sources)
     + [Special Thanks](#special-thanks)
 
  ## UX (User Experience) 
