@@ -54,3 +54,14 @@
 * Looks professional and the colour schemes should relax user as if they were on holiday.
 * Satisfy all user goals to the best of ability by including all relevant features, user should feel site was very helpful.
 
+### Design Choices 
+---
+**Fonts**
+
+I looked for a simple and asthetically pleasing font to match typical holiday themes of relaxations and good times. I chose [Palanquin](https://fonts.google.com/specimen/Palanquin?category=Sans+Serif&sort=popularity&query=pa#standard-styles) for all texts and headers. 
+
+**Colours**
+
+I chose to use the [Coolors](https://coolors.co/ffb5a7-fcd5ce-f8edeb-f9dcc4-fec89a) colour scheme generator to find one suitable for this project. Below is a screenshot of the colour scheme. I have colours you would find in beaches, where many people usually take their holidays and associate with holidays. They are soft colours that are pleasant to look at and would relax the user.
+
+![Color Scheme](wireframes/your-holiday-colour-scheme.png)
