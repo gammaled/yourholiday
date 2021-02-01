@@ -2,7 +2,7 @@
 
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: 40.749933, lng: -73.98633 },
+    center: { lat: 51.5074, lng: -0.1 },
     zoom: 13,
   });
   const card = document.getElementById("pac-card");
@@ -16,6 +16,7 @@ function initMap() {
     strictBounds: false,
     types: ["establishment"],
   };
+
   map.controls[google.maps.ControlPosition.TOP_RIGHT].push(card);
   const autocomplete = new google.maps.places.Autocomplete(input, options);
   // Bind the map's bounds (viewport) property to the autocomplete object,
@@ -29,6 +30,7 @@ function initMap() {
     map,
     anchorPoint: new google.maps.Point(0, -29),
   });
+
   autocomplete.addListener("place_changed", () => {
     infowindow.close();
     marker.setVisible(false);
@@ -58,6 +60,7 @@ function initMap() {
 
   // Sets a listener on a radio button to change the filter type on Places
   // Autocomplete.
+
   function setupClickListener(id, types) {
     const radioButton = document.getElementById(id);
     radioButton.addEventListener("click", () => {
