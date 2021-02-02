@@ -69,7 +69,7 @@ function initMap() {
   }
   setupClickListener("changetype-all", []);
   setupClickListener("changetype-address", ["address"]);
-  setupClickListener("changetype-establishment", ["establishment"]);
+  setupClickListener("changetype-tourist_attraction", ["tourist_attraction"]);
   setupClickListener("changetype-geocode", ["geocode"]);
   biasInputElement.addEventListener("change", () => {
     if (biasInputElement.checked) {
