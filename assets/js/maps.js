@@ -4,11 +4,11 @@ let places;
 let infoWindow;
 let markers = [];
 let autocomplete;
-const countryRestrict = { country: "us" };
+/*const countryRestrict = { country: "us" };*/
 const MARKER_PATH =
   "https://developers.google.com/maps/documentation/javascript/images/marker_green";
 const hostnameRegexp = new RegExp("^https?://.+?/");
-const countries = {
+/*const countries = {
   au: {
     center: { lat: -25.3, lng: 133.8 },
     zoom: 4,
@@ -61,12 +61,12 @@ const countries = {
     center: { lat: 54.8, lng: -4.6 },
     zoom: 5,
   },
-};
+}; */
 
 function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
-    zoom: countries["us"].zoom,
-    center: countries["us"].center,
+    zoom: 4,
+    center: { lat: 51.5074, lng: 0.1277 },
     mapTypeControl: false,
     panControl: false,
     zoomControl: false,
