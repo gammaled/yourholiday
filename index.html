@@ -19,40 +19,32 @@
 
     <!--SearchForm & Map-->
     <section>
-        <div class="pac-card" id="pac-card">
-            <div>
-                <div id="title">Autocomplete search</div>
-                <div id="type-selector" class="pac-controls">
-                    <input
-                        type="radio"
-                        name="type"
-                        id="changetype-all"
-                        checked="checked"
-                    />
-                    <label for="changetype-all">All</label>
+        <div class="hotel-search">
+      <div id="findhotels">Find hotels in:</div>
 
-                    <input type="radio" name="type" id="changetype-tourist_attraction" />
-                    <label for="changetype-tourist_attraction">Tourist Attraction</label>
+      <div id="locationField">
+        <input id="autocomplete" placeholder="Enter a city" type="text" />
+      </div>
 
-                    <input type="radio" name="type" id="changetype-address" />
-                    <label for="changetype-address">Addresses</label>
-
-                    <input type="radio" name="type" id="changetype-geocode" />
-                    <label for="changetype-geocode">Geocodes</label>
-                </div>
-                <br />
-                <div id="strict-bounds-selector" class="pac-controls">
-                    <input type="checkbox" id="use-location-bias" value="" checked />
-                    <label for="use-location-bias">Bias to map viewport</label>
-
-                    <input type="checkbox" id="use-strict-bounds" value="" />
-                    <label for="use-strict-bounds">Strict bounds</label>
-                </div>
-            </div>
-            <div id="pac-container">
-                <input id="pac-input" type="text" placeholder="Enter a location" />
-            </div>
-        </div>
+      <div id="controls">
+        <select id="country">
+          <option value="all">All</option>
+          <option value="au">Australia</option>
+          <option value="br">Brazil</option>
+          <option value="ca">Canada</option>
+          <option value="fr">France</option>
+          <option value="de">Germany</option>
+          <option value="mx">Mexico</option>
+          <option value="nz">New Zealand</option>
+          <option value="it">Italy</option>
+          <option value="za">South Africa</option>
+          <option value="es">Spain</option>
+          <option value="pt">Portugal</option>
+          <option value="us" selected>U.S.A.</option>
+          <option value="uk">United Kingdom</option>
+        </select>
+      </div>
+    </div>
         <div id="map"></div>
         <div id="infowindow-content">
             <span id="place-name" class="title"></span><br />
