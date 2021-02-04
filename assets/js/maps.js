@@ -4,10 +4,11 @@ let places;
 let infoWindow;
 let markers = [];
 let autocomplete;
+const countryRestrict = { country: "us" };
 const MARKER_PATH =
   "https://developers.google.com/maps/documentation/javascript/images/marker_green";
 const hostnameRegexp = new RegExp("^https?://.+?/");
-/*const countries = {
+const countries = {
   au: {
     center: { lat: -25.3, lng: 133.8 },
     zoom: 4,
@@ -59,13 +60,13 @@ const hostnameRegexp = new RegExp("^https?://.+?/");
   uk: {
     center: { lat: 54.8, lng: -4.6 },
     zoom: 5,
-  }, 
-}; */
+  },
+};
 
 function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 14,
-    center: { lat: 51.4990, lng: -0.1277 },
+    zoom: countries["us"].zoom,
+    center: countries["us"].center,
     mapTypeControl: false,
     panControl: false,
     zoomControl: false,
@@ -79,7 +80,8 @@ function initMap() {
   autocomplete = new google.maps.places.Autocomplete(
     document.getElementById("autocomplete"),
     {
-      types: ["(cities)"]
+      types: ["(cities)"],
+      componentRestrictions: countryRestrict,
     }
   );
   places = new google.maps.places.PlacesService(map);
