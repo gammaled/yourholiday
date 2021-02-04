@@ -4,7 +4,6 @@ let places;
 let infoWindow;
 let markers = [];
 let autocomplete;
-const countryRestrict = { country: "us" };
 const MARKER_PATH =
   "https://developers.google.com/maps/documentation/javascript/images/marker_green";
 const hostnameRegexp = new RegExp("^https?://.+?/");
