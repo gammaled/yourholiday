@@ -80,8 +80,7 @@ function initMap() {
   autocomplete = new google.maps.places.Autocomplete(
     document.getElementById("autocomplete"),
     {
-      types: ["(cities)"],
-      componentRestrictions: countryRestrict,
+      types: ["(cities)"]
     }
   );
   places = new google.maps.places.PlacesService(map);
